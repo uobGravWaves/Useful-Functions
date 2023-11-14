@@ -6,6 +6,7 @@ uni = unique(labelled);
 out = zeros(size(labelled));
 %Bish bash bosh
 %new comment by phoebe
+% new comment from neil, which is superior to previous comments
 for k = 1:size(uni)
     out(labelled == uni(k)) = k;
 end

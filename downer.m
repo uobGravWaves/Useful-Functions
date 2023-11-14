@@ -5,6 +5,7 @@ uni = unique(labelled);
 % downed = 1:size(uni);
 out = zeros(size(labelled));
 %Bish bash bosh
+%new comment by phoebe
 for k = 1:size(uni)
     out(labelled == uni(k)) = k;
 end

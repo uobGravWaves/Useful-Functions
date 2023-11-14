@@ -11,4 +11,4 @@ for k = 1:size(uni)
     out(labelled == uni(k)) = k;
 end
 
-%1234
+%123456
